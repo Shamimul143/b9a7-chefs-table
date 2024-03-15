@@ -1,0 +1,99 @@
+[
+    {
+        "recipe_image": "https://i.ibb.co/JthK5Bt/Rectangle-20170.png",
+        "recipe_id": "1",
+        "recipe_name": "Spaghetti Bolognese",
+        "short_description": "Classic Italian pasta dish with creamy sauce and crispy bacon.",
+        "ingredients": [
+          "300 g spaghetti",
+          "200 g pancetta",
+          "4 eggs",
+          "100 g Parmesan cheese",
+          "Black pepper"
+        ],
+        "preparing_time": "25 min",
+        "calories": "450 calories"
+      },
+
+      {
+        "recipe_image": "https://i.ibb.co/k4dybLk/Rectangle-20170-1.png",
+        "recipe_id": "2",
+        "recipe_name": "Chicken Caesar Salad",
+        "short_description": "Healthy and flavorful grilled Chicken with lemon and herbs.",
+        "ingredients": [
+          "4 salmon fillets",
+          "2 lemons",
+          "Fresh dill",
+          "Salt",
+          "Black pepper"
+        ],
+        "preparing_time": "20 min",
+        "calories": "300 calories"
+      },
+  
+      {
+        "recipe_image": "https://i.ibb.co/p3r7W6B/Easy-Vegetable-Stir-Fry-close.jpg",
+        "recipe_id": "3",
+        "recipe_name": "Vegetable Stir-Fry",
+        "short_description": "A colorful and nutritious stir-fry with assorted vegetables.",
+        "ingredients": [
+          "1 bell pepper",
+          "1 broccoli head",
+          "1 carrot",
+          "100 g snap peas",
+          "150 g tofu",
+          "120 ml soy sauce"
+        ],
+        "preparing_time": "15 min",
+        "calories": "200 calories"
+      },
+  
+      {
+        "recipe_image": "https://i.ibb.co/YprLn80/chicken-caesar-salad-1-scaled.webp",
+        "recipe_id": "4",
+        "recipe_name": "Chicken Caesar Salad",
+        "short_description": "Classic salad with grilled chicken, crispy lettuce, and Caesar dressing.",
+        "ingredients": [
+          "2 chicken breasts",
+          "1 head romaine lettuce",
+          "50 g Parmesan cheese",
+          "Croutons",
+          "Caesar dressing"
+        ],
+        "preparing_time": "20 min",
+        "calories": "350 calories"
+      },
+
+      {
+        "recipe_image": "https://i.ibb.co/q0D4gyL/download.jpg",
+        "recipe_id": "5",
+        "recipe_name": "Beef Tacos",
+        "short_description": "Tasty tacos filled with seasoned beef, lettuce, cheese, and salsa.",
+        "ingredients": [
+          "300 g ground beef",
+          "8 taco shells",
+          "Shredded lettuce",
+          "100 g Cheddar cheese",
+          "Salsa"
+        ],
+        "preparing_time": "30 min",
+        "calories": "400 calories"
+      },
+ 
+      {
+        "recipe_image": "https://i.ibb.co/861kB6b/10-Risotto-gcmz-super-Jumbo.jpg",
+        "recipe_id": "6",
+        "recipe_name": "Mushroom Risotto",
+        "short_description": "Creamy and savory risotto with mushrooms and Parmesan cheese.",
+        "ingredients": [
+          "300 g Arborio rice",
+          "200 g mushrooms",
+          "1 onion",
+          "1 liter vegetable broth",
+          "50 g Parmesan cheese",
+          "Butter"
+        ],
+        "preparing_time": "40 min",
+        "calories": "380 calories"
+      }
+]
