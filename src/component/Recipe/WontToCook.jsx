@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 
 
-const WontToCook = ({ i, index,handleCook }) => {
+const WontToCook = ({i, index,handleCook }) => {
 
 
 

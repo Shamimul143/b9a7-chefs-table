@@ -19,7 +19,7 @@ const RecipeItem = ({handleCart}) => {
 
 
     return (
-        <div className="w-2/3 border-2 grid grid-cols-2 gap-3">
+        <div className="lg:w-2/3 border-2 lg:grid grid-cols-2 gap-3">
 
             {
                 recipes.map((item,index)=> <SingleRecipe key={index} item={item} handleCart={handleCart}></SingleRecipe>)
