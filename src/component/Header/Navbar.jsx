@@ -8,7 +8,7 @@ const Navbar = () => {
         <div>
 
             <nav>
-                <div className="flex justify-evenly my-5 items-center">
+                <div className=" lg:flex justify-evenly my-5 items-center">
                     <h2 className='text-3xl font-bold'>Recipe Calories</h2>
                     <ul className="flex gap-6">
                         <li><a href="">Home</a></li>
@@ -17,13 +17,13 @@ const Navbar = () => {
                         <li><a href="">Search</a></li>
                     </ul>
                     <div className='flex '>
-                    <div className='absolute pl-2 pt-2'><img src={Vector} alt="search img" /></div>
+                    <div className='absolute pl-2 pt-2'><img src={Vector} alt="search image" /></div>
                     <input className="bg-gray-200 rounded-2xl pl-8 py-1" type="text" placeholder="Search" />
-                    </div>
-                    
+                    </div>                    
                     <button className='bg-[#0be58a] rounded-full'><img src={Frame} alt="Frame" /></button>
                 </div>
-            </nav>
+            </nav> 
+            
 
         </div>
     );
