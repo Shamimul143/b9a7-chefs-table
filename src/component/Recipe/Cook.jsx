@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import WontToCook from './WontToCook';
 
-const Cook = ({ items }) => {
+const Cook = ({ items,handleCook }) => {
   
     return (
         <div className="w-1/3 border-2">
@@ -14,7 +14,7 @@ const Cook = ({ items }) => {
         </div>
             <div>
 {
-    items.map((i, index)=><WontToCook  i={i} key={index} index={index}></WontToCook>
+    items.map((i, index)=><WontToCook  i={i} key={index} index={index} handleCook={handleCook}></WontToCook>
  
     )
     
@@ -26,7 +26,8 @@ const Cook = ({ items }) => {
 };
 
 Cook.propTypes = {
-    items: PropTypes.func
+    items: PropTypes.array,
+    handleCook:PropTypes.func
 };
 
 export default Cook;

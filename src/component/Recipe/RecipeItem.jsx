@@ -29,7 +29,7 @@ const RecipeItem = ({handleCart}) => {
 };
 
 RecipeItem.propTypes = {
-    handleCart:PropTypes.array
+    handleCart:PropTypes.func
 };
 
 export default RecipeItem;

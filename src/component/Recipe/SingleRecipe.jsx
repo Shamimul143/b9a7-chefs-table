@@ -37,7 +37,7 @@ const SingleRecipe = ({item,handleCart}) => {
 
 SingleRecipe.propTypes = {
 item:PropTypes.object,
-handleCart:PropTypes.array
+handleCart:PropTypes.func
 };
 
 export default SingleRecipe;
