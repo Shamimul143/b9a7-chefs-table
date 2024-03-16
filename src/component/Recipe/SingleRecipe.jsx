@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Frame1 from '../../assets/image/Frame (1).png'
 import Frame2 from '../../assets/image/Frame (2).png'
 
-const SingleRecipe = ({item,handleCart}) => {
+const SingleRecipe = ({ item, handleCart }) => {
 
     return (
         <div>
@@ -13,7 +13,7 @@ const SingleRecipe = ({item,handleCart}) => {
                     <h2 className="card-title my-2">{item.recipe_name}</h2>
                     <p className='mb-2'>{item.short_description}</p>
                     <h4 className='mb-2'>Ingredients: 5</h4>
-                    <div className='ml-2 mb-2'>                        
+                    <div className='ml-2 mb-2'>
                         <li>{item.ingredients[0]}</li>
                         <li>{item.ingredients[1]}</li>
                         <li>{item.ingredients[2]}</li>
@@ -27,7 +27,7 @@ const SingleRecipe = ({item,handleCart}) => {
                         <p>{item.calories}</p>
                     </div>
                     <div className="card-actions justify-end mb-2">
-                        <button onClick={()=>handleCart(item)} className="bg-[#0BE58A] rounded-full mr-3 px-4 py-1 text-black">Want to Cook </button>
+                        <button onClick={() => handleCart(item)} className="bg-[#0BE58A] rounded-full mr-3 px-4 py-1 text-black">Want to Cook </button>
                     </div>
                 </div>
             </div>
@@ -36,8 +36,8 @@ const SingleRecipe = ({item,handleCart}) => {
 };
 
 SingleRecipe.propTypes = {
-item:PropTypes.object,
-handleCart:PropTypes.func
+    item: PropTypes.object,
+    handleCart: PropTypes.func
 };
 
 export default SingleRecipe;

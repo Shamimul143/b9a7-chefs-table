@@ -13,6 +13,8 @@ function App() {
 
   const [items, setItem] = useState([])
 
+  const [cookName, setCookName] = useState([])
+
   const handleCart = (item) => {
 
     const isExist = items.find(cart => cart.recipe_id == item.recipe_id)
@@ -22,28 +24,15 @@ function App() {
       toast.success("Added Success");
     } else {
       toast.warning("Already Eexist");
-
     }
 
   }
-
-
-
-
-
-
-
-  const handleCook = (recipeId) => {
+  const handleCook = (recipeId, i) => {
 
     const newRecipe = items.filter(recipe => recipe.recipe_id != recipeId)
     setItem(newRecipe)
-
-    
+    setCookName([...cookName, i])
   }
-
-
-
-
   return (
     <>
       <Navbar></Navbar>
@@ -51,8 +40,7 @@ function App() {
       <Recipe></Recipe>
       <div className='lg:flex w-[81%] mx-auto my-10 gap-3'>
         <RecipeItem handleCart={handleCart}></RecipeItem>
-        <Cook handleCook={handleCook} items={items}></Cook>
-
+        <Cook handleCook={handleCook} items={items} cookName={cookName} ></Cook>
       </div>
       <ToastContainer />
     </>
