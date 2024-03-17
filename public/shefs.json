@@ -9,10 +9,11 @@
           "200 g pancetta",
           "4 eggs",
           "100 g Parmesan cheese",
-          "Black pepper"
+          "Black pepper",
+          "400 g mushrooms"
         ],
-        "preparing_time": "25 min",
-        "calories": "450 calories"
+        "preparing_time": 25,
+        "calories": 450 
       },
 
       {
@@ -25,10 +26,11 @@
           "2 lemons",
           "Fresh dill",
           "Salt",
-          "Black pepper"
+          "Black pepper",
+          "200 g basil leaves"
         ],
-        "preparing_time": "20 min",
-        "calories": "300 calories"
+        "preparing_time": 20,
+        "calories": 300
       },
   
       {
@@ -44,8 +46,8 @@
           "150 g tofu",
           "120 ml soy sauce"
         ],
-        "preparing_time": "15 min",
-        "calories": "200 calories"
+        "preparing_time": 15,
+        "calories": 200
       },
   
       {
@@ -58,10 +60,11 @@
           "1 head romaine lettuce",
           "50 g Parmesan cheese",
           "Croutons",
-          "Caesar dressing"
+          "Caesar dressing",
+          "120 ml soy sauce"
         ],
-        "preparing_time": "20 min",
-        "calories": "350 calories"
+        "preparing_time": 20,
+        "calories": 350
       },
 
       {
@@ -74,10 +77,11 @@
           "8 taco shells",
           "Shredded lettuce",
           "100 g Cheddar cheese",
-          "Salsa"
+          "Salsa",
+          "Fresh dill"
         ],
-        "preparing_time": "30 min",
-        "calories": "400 calories"
+        "preparing_time": 30,
+        "calories": 400
       },
  
       {
@@ -93,7 +97,7 @@
           "50 g Parmesan cheese",
           "Butter"
         ],
-        "preparing_time": "40 min",
-        "calories": "380 calories"
+        "preparing_time": 40,
+        "calories": 380
       }
 ]

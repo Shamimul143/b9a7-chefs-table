@@ -13,7 +13,7 @@ const RecipeItem = ({ handleCart }) => {
             .then(data => setRecipe(data))
     })
     return (
-        <div className="lg:w-2/3 border-2 lg:grid grid-cols-2 gap-3">
+        <div className="lg:w-2/3 lg:grid grid-cols-2 gap-3">
 
             {
                 recipes.map((item, index) => <SingleRecipe key={index} item={item} handleCart={handleCart}></SingleRecipe>)

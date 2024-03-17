@@ -12,19 +12,20 @@ const SingleRecipe = ({ item, handleCart }) => {
                 <div className="card-body">
                     <h2 className="card-title my-2">{item.recipe_name}</h2>
                     <p className='mb-2'>{item.short_description}</p>
-                    <h4 className='mb-2'>Ingredients: 5</h4>
+                    <h4 className='mb-2'>Ingredients: 6</h4>
                     <div className='ml-2 mb-2'>
                         <li>{item.ingredients[0]}</li>
                         <li>{item.ingredients[1]}</li>
                         <li>{item.ingredients[2]}</li>
                         <li>{item.ingredients[3]}</li>
                         <li>{item.ingredients[4]}</li>
+                        <li>{item.ingredients[5]}</li>
                     </div>
                     <div className='flex gap-3 mb-2'>
                         <span><img src={Frame1} alt="" /></span>
-                        <p>{item.preparing_time}</p>
+                        <p>{item.preparing_time} min</p>
                         <span><img src={Frame2} alt="" /></span>
-                        <p>{item.calories}</p>
+                        <p>{item.calories} calories</p>
                     </div>
                     <div className="card-actions justify-end mb-2">
                         <button onClick={() => handleCart(item)} className="bg-[#0BE58A] rounded-full mr-3 px-4 py-1 text-black">Want to Cook </button>

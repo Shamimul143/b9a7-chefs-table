@@ -6,8 +6,8 @@ const WontToCook = ({ i, index, handleCook }) => {
         <div className='flex justify-evenly my-4 text-xs '>
             <span>{index + 1}</span>
             <p>{i.recipe_name.slice(0, 10)}</p>
-            <p>{i.preparing_time}</p>
-            <p>{i.calories}</p>
+            <p>{i.preparing_time} min</p>
+            <p>{i.calories} calories</p>
             <button onClick={() => handleCook(i.recipe_id, i)} className="bg-[#0BE58A] rounded-full text-black text-xs px-2">Preparing</button>
         </div>
     );

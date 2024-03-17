@@ -7,8 +7,8 @@ const CurrentlyCooking = ({ CurrentlyCookingItem, index }) => {
         <div className='flex justify-evenly my-4 text-xs '>
             <span>{index + 1}</span>
             <p>{CurrentlyCookingItem.recipe_name.slice(0, 10)}</p>
-            <p>{CurrentlyCookingItem.preparing_time}</p>
-            <p>{CurrentlyCookingItem.calories}</p>
+            <p>{CurrentlyCookingItem.preparing_time} min</p>
+            <p>{CurrentlyCookingItem.calories} calories</p>
 
         </div>
     );

@@ -15,6 +15,9 @@ function App() {
 
   const [cookName, setCookName] = useState([])
 
+  const [time, setTime]=useState(0)
+  const [calories, setCalories]= useState(0)
+
   const handleCart = (item) => {
 
     const isExist = items.find(cart => cart.recipe_id == item.recipe_id)
@@ -32,6 +35,9 @@ function App() {
     const newRecipe = items.filter(recipe => recipe.recipe_id != recipeId)
     setItem(newRecipe)
     setCookName([...cookName, i])
+
+    setTime(time+i.preparing_time)
+    setCalories(calories+i.calories)
   }
   return (
     <>
@@ -40,7 +46,7 @@ function App() {
       <Recipe></Recipe>
       <div className='lg:flex w-[81%] mx-auto my-10 gap-3'>
         <RecipeItem handleCart={handleCart}></RecipeItem>
-        <Cook handleCook={handleCook} items={items} cookName={cookName} ></Cook>
+        <Cook handleCook={handleCook} items={items} cookName={cookName} time={time} calories={calories} ></Cook>
       </div>
       <ToastContainer />
     </>
